@@ -1,0 +1,126 @@
+body{
+	margin: 0px auto;
+	text-align:left;
+	font-family:sans-serif;
+	background-color: rgb(230,230,230);
+}
+
+/*Todo lo de abajo es lo relacionado al encabezado*/
+#Encabezado{
+background-color: rgb(153,0,51);
+color: white;
+margin-bottom: 30px;
+}
+
+#Encabezado{
+	width: 100%;
+}
+
+#Encabezado h1{
+	padding: 15px;
+	display:inline;
+}
+
+#Encabezado h3{
+	margin: 0px;
+	display:inline;
+	text-align: right;
+}
+
+#Encabezado a{
+	text-align: right;
+	margin: 0px;
+	display:inline;
+}
+/*Todo lo de arriba es lo relacionado al encabezado*/
+
+
+
+
+
+/*Todo lo de abajo es lo relacionado al titulo del apartado*/
+
+#TituloApartado{
+	text-align:center;
+	margin: 0 auto;
+	text-decoration:underline;
+	font-size:38px;
+}
+
+
+
+/*Todo lo de arriba es lo relacionado al titulo del apartado*/
+
+
+
+
+
+
+/*Todo lo de abajo es lo relacionado a los sub-titulos*/
+.sub-titulos{
+	text-decoration:underline;
+	font-size: 34px;
+	margin-bottom: 0px;
+}
+
+/*Todo lo de arriba es lo relacionado a los sub-titulos*/
+
+
+
+
+/*Todo lo de abajo es lo relacionado a los parrafos*/
+p{
+	font-size:29px;
+	font-weight: 100;
+	margin-right: 30px;
+	margin-left: 30px;
+    margin-top: 10px;
+}
+/*Todo lo de arriba es lo relacionado a los parrafos*/
+
+
+
+/*Todo lo de abajo es de los grupos de sub-titulos y parrafos almacenados en divs*/
+div{
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;
+	background-color: white;
+	border: 2px black solid;
+	border-radius: 5px;
+	width: 75%;
+}
+/*Todo lo de arriba es de los grupos de sub-titulos y parrafos almacenados en divs*/
+
+
+
+
+/*Todo lo de abajo es de los links del encabezado*/
+a:visited, a:link{
+	text-align: right;
+	color: white;
+	transition: all 1s ease;
+	font-size:25px;
+}
+a:hover{
+	color:rgb(204,204,204);
+	transition: all 1s ease;
+	font-size:26.5px;
+}
+
+/*Todo lo de arriba es de los links del encabezado*/
+
+
+
+/*Todo lo de abajo es del footer*/
+
+footer h3{
+	background-color: white;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align:center;
+	width: 30%;
+	border: 1px black solid;
+	border-radius: 5px;
+}
