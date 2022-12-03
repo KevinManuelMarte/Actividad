@@ -65,7 +65,6 @@ margin-bottom: 30px;
 	text-decoration:underline;
 	font-size: 34px;
 	margin-bottom: 0px;
-	text-shadow: 0px 0px 1px gray;
 }
 
 /*Todo lo de arriba es lo relacionado a los sub-titulos*/
@@ -129,4 +128,5 @@ footer h3{
 	width: 30%;
 	border: 1px black solid;
 	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
 }
