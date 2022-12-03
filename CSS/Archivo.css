@@ -19,6 +19,7 @@ margin-bottom: 30px;
 #Encabezado h1{
 	padding: 15px;
 	display:inline;
+	text-shadow: 2px 2px 5px black;
 }
 
 #Encabezado h3{
@@ -31,6 +32,7 @@ margin-bottom: 30px;
 	text-align: right;
 	margin: 0px;
 	display:inline;
+	text-shadow: 2px 2px 5px black;
 }
 /*Todo lo de arriba es lo relacionado al encabezado*/
 
@@ -46,6 +48,7 @@ margin-bottom: 30px;
 	text-decoration:underline;
 	font-size:38px;
 	margin-bottom: 15px;
+	text-shadow: 2px 2px 1.5px gray;
 }
 
 
@@ -62,6 +65,7 @@ margin-bottom: 30px;
 	text-decoration:underline;
 	font-size: 34px;
 	margin-bottom: 0px;
+	text-shadow: 0px 0px 1px gray;
 }
 
 /*Todo lo de arriba es lo relacionado a los sub-titulos*/
@@ -90,6 +94,7 @@ div{
 	border: 2px black solid;
 	border-radius: 5px;
 	width: 75%;
+        box-shadow: 2px 2px 5px black;
 }
 /*Todo lo de arriba es de los grupos de sub-titulos y parrafos almacenados en divs*/
 
