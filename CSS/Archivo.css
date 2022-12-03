@@ -3,6 +3,7 @@ body{
 	text-align:left;
 	font-family:sans-serif;
 	background-color: rgb(230,230,230);
+	background-image:imagenes/R.gif;
 }
 
 /*Todo lo de abajo es lo relacionado al encabezado*/
@@ -93,7 +94,8 @@ div{
 	border: 2px black solid;
 	border-radius: 5px;
 	width: 75%;
-        box-shadow: 2px 2px 5px black;
+        box-shadow: 1px 1px 5px black;
+		
 }
 /*Todo lo de arriba es de los grupos de sub-titulos y parrafos almacenados en divs*/
 
