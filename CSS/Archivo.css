@@ -1,3 +1,7 @@
+*{
+	transition: all 1s ease;
+}
+
 body{
 	margin: 0px auto;
 	text-align:left;
@@ -10,6 +14,7 @@ body{
 #Encabezado{
 background-color: rgb(153,0,51);
 color: white;
+padding-TOP: 2.5px;
 margin-bottom: 30px;
 }
 
@@ -35,7 +40,17 @@ margin-bottom: 30px;
 	display:inline;
 	text-shadow: 2px 2px 5px black;
 }
+
+#Encabezado img{
+	width: 5%;
+	height: 5%;
+	margin: 0px;
+	position: relative;
+	bottom: -2px;
+}
 /*Todo lo de arriba es lo relacionado al encabezado*/
+
+
 
 
 
@@ -66,6 +81,8 @@ margin-bottom: 30px;
 	text-decoration:underline;
 	font-size: 34px;
 	margin-bottom: 0px;
+	margin-right:8px;
+	margin-left:8px;
 }
 
 /*Todo lo de arriba es lo relacionado a los sub-titulos*/
@@ -87,6 +104,7 @@ p{
 
 /*Todo lo de abajo es de los grupos de sub-titulos y parrafos almacenados en divs*/
 div{
+	padding: 10px;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	text-align: center;
@@ -131,4 +149,105 @@ footer h3{
 	border: 1px black solid;
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px black;
+}
+
+@media (max-width: 300px){
+*{
+	transition:none;
+}
+	
+	/*Todo lo de abajo es lo relacionado al encabezado*/
+
+
+
+#Encabezado h1{
+		text-align:right;
+	padding: 2px;
+
+	font-size:23px;
+	display:inline;
+	text-shadow: 2px 2px 5px black;
+}
+
+
+#Encabezado a{
+	text-align: right;
+	margin: 0px;
+	display:inline;
+	text-shadow: 2px 2px 5px black;
+	font-size: 19px;
+}
+#Encabezado img{
+	width: 17%;
+	height: 8%;
+	margin: 0px;
+	position: relative;
+	bottom: -2px;
+}
+/*Todo lo de arriba es lo relacionado al encabezado*/
+
+
+
+
+/*Todo lo de abajo es lo relacionado a los sub-titulos*/
+.sub-titulos{
+	text-decoration:underline;
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-right:8px;
+	margin-left:8px;
+}
+
+/*Todo lo de arriba es lo relacionado a los sub-titulos*/
+
+
+
+
+/*Todo lo de abajo es lo relacionado a los parrafos*/
+p{
+	font-size:15px;
+	font-weight: 100;
+	margin-right: 30px;
+	margin-left: 30px;
+    margin-top: 10px;
+}
+/*Todo lo de arriba es lo relacionado a los parrafos*/
+
+
+
+
+/*Todo lo de abajo es del footer*/
+
+footer h3{
+	background-color: white;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align:center;
+	width: 30%;
+	border: 1px black solid;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
+	font-size: 12px;
+	
+}
+
+
+
+
+/*Todo lo de abajo es lo relacionado al titulo del apartado*/
+
+#TituloApartado{
+	text-align:center;
+	margin: 0 auto;
+	text-decoration:underline;
+	font-size:30px;
+	margin-bottom: 15px;
+	text-shadow: 2px 2px 1.5px gray;
+}
+
+
+
+/*Todo lo de arriba es lo relacionado al titulo del apartado*/
+
 }
